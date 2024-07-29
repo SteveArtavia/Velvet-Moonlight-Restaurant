@@ -1,0 +1,34 @@
+:root{
+    --velvet:#6D0F0A;
+    --gold:#D4AF37;
+    --cream:#F5F5DC;
+    --grey:#2F2F2F;
+    --rose:#B76E79;
+    --champagne:#F7E7CE;
+    --blue:#191970;
+    --title:font-family: 'Cinzel', serif;
+}
+header{
+    background-color: black;
+    padding: 2em;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;    
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#hero{
+    padding-top: 150px;
+}
